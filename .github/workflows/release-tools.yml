@@ -93,13 +93,11 @@ jobs:
         uses: actions/checkout@v6.0.2
         with:
           fetch-depth: 0
-          persist-credentials: false
 
       - name: Generate a changelog
         uses: orhun/git-cliff-action@v4.7.0
         id: git-cliff
         with:
-          config: cliff.toml
           args: -vv --latest --no-exec --github-repo ${{ github.repository }}
 
   build:

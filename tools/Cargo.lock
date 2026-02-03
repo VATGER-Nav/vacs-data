@@ -547,6 +547,7 @@ dependencies = [
 [[package]]
 name = "vacs-protocol"
 version = "1.1.0"
+source = "git+https://github.com/MorpheusXAUT/vacs?branch=v2#fc588ebd0689f4e04e471b449e466594092fa452"
 dependencies = [
  "serde",
  "serde_json",
@@ -556,6 +557,7 @@ dependencies = [
 [[package]]
 name = "vacs-vatsim"
 version = "0.2.1"
+source = "git+https://github.com/MorpheusXAUT/vacs?branch=v2#fc588ebd0689f4e04e471b449e466594092fa452"
 dependencies = [
  "regex",
  "serde",
