@@ -600,6 +600,7 @@
       "prefixes": ["EDXW"],
       "frequency": "119.750",
       "facility_type": "TWR"
+      "profile_id": "EDWW-MINOR"
     },
     {
       "id": "EDAY_I_TWR",
